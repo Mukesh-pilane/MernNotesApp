@@ -41,3 +41,4 @@ jspm_packages
 public/
 
 /node_modules
+.env
