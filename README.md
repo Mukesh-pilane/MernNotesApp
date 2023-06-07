@@ -42,7 +42,7 @@ This project is a simple web application built using the MERN stack to create an
 
    ```shell
 
-   git clone <repository-url>
+   git clone https://github.com/Mukesh-pilane/MernNotesApp.git
 
 2. Navigate to the project directory:
 
@@ -76,7 +76,7 @@ This project is a simple web application built using the MERN stack to create an
 
 ```
 
-5.Start the server:
+5. Start the server:
 
   ```shell 
 
