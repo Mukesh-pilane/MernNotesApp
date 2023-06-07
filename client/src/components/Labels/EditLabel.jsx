@@ -22,7 +22,7 @@ import EditIcon from "@mui/icons-material/Edit";
 
 import { makeStyles } from "@mui/styles";
 
-const baseURL = "http://localhost:5000";
+const baseURL = process.env.REACT_APP_BASE_URL
 
 const useStyles = makeStyles({
   root: {

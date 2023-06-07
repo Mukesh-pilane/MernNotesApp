@@ -31,7 +31,7 @@ export default function Home() {
   const classes = useStyles();
     const [notes, setNotes] = useState([])
     const [token, setToken] = useState('')
-    const baseURL='http://localhost:5000'
+    const baseURL= process.env.REACT_APP_BASE_URL
     const location = useLocation();
     const { label } = useParams()
     

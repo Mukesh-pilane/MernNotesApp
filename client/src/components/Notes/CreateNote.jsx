@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   }
 })
 
-const baseURL ="http://localhost:5000"
+const baseURL = process.env.REACT_APP_BASE_URL
 
 const CreateNote = ()=> {
   const classes = useStyles();

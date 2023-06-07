@@ -7,7 +7,7 @@ import Loader from './components/others/Loader'
 
 function App() {
   const [isLogin, setIsLogin] = useState(null)
-  const baseURL = 'http://localhost:5000'
+  const baseURL = process.env.REACT_APP_BASE_URL
   useEffect(() =>{
     const checkLogin = async () =>{
       const token = localStorage.getItem('tokenStore');
